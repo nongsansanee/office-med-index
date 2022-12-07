@@ -7,10 +7,11 @@
 </head>
 @include('font-theme')
 <body class="font-sarabun">
+    <div class="sticky top-0 z-40 bg-blue-900 text-white text-3xl text-center">
+        <label for="">ระบบสารสนเทศสำนักงานภาควิชาอายุรศาสตร์</label>
+    </div>
     <div class="grid my-6 mx-2 lg:mx-4 place-items-center ">
-        <h1 class="text-3xl font-bold underline">
-            รวมลิ้งค์ระบบสารสนเทศสำนักงานภาควิชาอายุรศาสตร์
-        </h1>
+        
         <h1 class="text-2xl font-bold bg-green-300 mt-4 p-4 rounded-md ">
             OFFICE-MED
         </h1>
@@ -97,6 +98,10 @@
                     </div>
             </a>
         </div>
+    </div>
+
+    <div class="sticky bottom-0 z-40 bg-blue-900 text-white text-sm text-center">
+        <label for="">copy right @ IT-MED</label>
     </div>
   
 </body>
